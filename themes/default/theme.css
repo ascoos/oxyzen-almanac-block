@@ -1,0 +1,181 @@
+:root {
+    color-scheme: light dark;
+
+    --al-bg: light-dark(#ffffff, #111111);
+    --al-fg: light-dark(#111111, #f5f5f5);
+    --al-border: light-dark(#333333, #dddddd);
+    --al-muted: light-dark(#666666, #aaaaaa);
+    --al-accent: #0077ff;
+}
+
+/* Wrapper */
+.oxyzen-block-almanac {
+    display: block;
+    color: var(--al-fg);
+    background: transparent;
+    font-family: system-ui, sans-serif;
+    margin: 20px;
+}
+
+.oxyzen-block-almanac section.box {
+    margin: 10px;
+}
+.oxyzen-block-almanac section h1.title {
+    font-family: "Sen", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #333;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    margin: 14px 0
+}
+
+/* ============================
+   CARD
+   ============================ */
+.oxyzen-block-almanac.card .card {
+    max-width: 360px;
+    border-radius: 10px;
+    border: 1px solid var(--al-border);
+    padding: 12px;
+    background: var(--al-bg);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.oxyzen-block-almanac.card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* ============================
+   VCARD (horizontal)
+   ============================ */
+.oxyzen-block-almanac.vcard .vcard-item {
+    display: flex;
+    gap: 14px;
+    border: 1px solid var(--al-border);
+    padding: 12px;
+    border-radius: 10px;
+    max-width: 680px;
+    background: var(--al-bg);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.oxyzen-block-almanac.vcard .vcard-image img {
+    width: 180px;
+    max-width: 40vw;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.oxyzen-block-almanac.vcard .vcard-content {
+    flex: 1;
+}
+
+/* Responsive vcard */
+@media (max-width: 640px) {
+    .oxyzen-block-almanac.vcard .vcard-item {
+        flex-direction: column;
+    }
+    .oxyzen-block-almanac.vcard .vcard-image img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* ============================
+   LIST
+   ============================ */
+.oxyzen-block-almanac.list table.almanac-list {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--al-bg);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.oxyzen-block-almanac.list td {
+    padding: 10px;
+    border-bottom: 1px solid var(--al-border);
+}
+
+.oxyzen-block-almanac.list tr:last-child td {
+    border-bottom: none;
+}
+
+.oxyzen-block-almanac.list td.thumb img {
+    width: 60px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.oxyzen-block-almanac.list td.year {
+    width: 60px;
+    font-weight: bold;
+    color: var(--al-muted);
+}
+
+.oxyzen-block-almanac.list td.text {
+    cursor: pointer;
+}
+
+.oxyzen-block-almanac.list td.text .open-modal {
+    color: var(--al-accent);
+    text-decoration: underline;
+}
+
+/* Responsive list */
+@media (max-width: 480px) {
+    .oxyzen-block-almanac.list td {
+        padding: 6px;
+        font-size: 0.9rem;
+    }
+    .oxyzen-block-almanac.list td.year {
+        width: 48px;
+    }
+    .oxyzen-block-almanac.list td.thumb img {
+        width: 48px;
+        height: 36px;
+    }
+}
+
+/* ============================
+   MODAL + ANIMATION
+   ============================ */
+@keyframes al-fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes al-scale {
+    from { transform: scale(0.85); opacity: 0; }
+    to   { transform: scale(1); opacity: 1; }
+}
+
+.almanac-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    animation: al-fade 0.25s ease-out;
+}
+
+.almanac-modal .modal-content {
+    background: var(--al-bg);
+    color: var(--al-fg);
+    padding: 20px;
+    width: min(90vw, 520px);
+    margin: 10vh auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    animation: al-scale 0.25s ease-out;
+}
+
+.almanac-modal .modal-content img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+.almanac-modal .close {
+    float: right;
+    cursor: pointer;
+    font-size: 22px;
+    line-height: 1;
+}
