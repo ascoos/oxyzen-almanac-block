@@ -1,28 +1,28 @@
-# 📅 Oxyzen Almanac Block
+# Oxyzen Almanac Block
 
 **Oxyzen Almanac Block** is a dynamic, extensible, and fully customizable block that displays historical “On This Day” events.  
 It supports multiple layouts, themes, multilingual content, responsive design, and optional integration with the **BootLib UI Framework**.
 
 ---
 
-## ✨ Features
+## Features
 
-- 📌 **3 Layouts**
-  - `card` — vertical card
-  - `vcard` — horizontal card (image left, text right)
-  - `list` — event list with modal
-- 🎨 **Themes** using CSS `light-dark()`
-- 🖼️ **Image support** (thumb/full)
-- 🌍 **Multilingual system** with ISO codes (`en`, `el`, `fr`, `zh-cn`, `zh-tw`, etc.)
-- 🧩 **BootLib modal integration** (optional)
-- 📁 **JSON-based data** per day and month
-- 📱 **Fully responsive**
-- ⚙️ **Config-driven behavior** via `conf.php`
-- 🔧 Optional Ascoos OS compatibility
+- **3 Layouts**
+    - `card` — vertical card
+    - `vcard` — horizontal card (image left, text right)
+    - `list` — event list with modal
+- **Themes** using CSS `light-dark()`
+- **Image support** (thumb/full)
+- **Multilingual system** with ISO codes (`en`, `el`, `fr`, `zh-cn`, `zh-tw`, etc.)
+- **BootLib modal integration** (optional)
+- **JSON-based data** per day and month
+- **Fully responsive**
+- **Config-driven behavior** via `conf.php`
+- Optional Ascoos OS compatibility
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 /config
@@ -53,7 +53,7 @@ README.md
 
 ---
 
-## ⚙️ Configuration (`config/conf.php`)
+## Configuration (`config/conf.php`)
 
 ```php
 return [
@@ -74,7 +74,7 @@ return [
 
 ---
 
-## 🧩 Usage
+## Usage
 
 The block is loaded through `index.php`:
 
@@ -90,7 +90,7 @@ You can switch layouts directly from `conf.php`.
 
 ---
 
-## 📌 Layouts
+## Layouts
 
 ### **card**
 
@@ -110,7 +110,7 @@ You can switch layouts directly from `conf.php`.
 
 ---
 
-## 🌍 Multilingual System
+## Multilingual System
 
 Each language file is simple:
 
@@ -132,7 +132,7 @@ The system automatically falls back to English if a language file is missing.
 
 ---
 
-## 🖼️ Date Data
+## Date Data
 
 Each day has its own JSON file:
 
@@ -159,7 +159,7 @@ Format:
 
 ---
 
-## 🎨 Themes
+## Themes
 
 Themes are stored in:
 
@@ -178,7 +178,7 @@ Using CSS `light-dark()`:
 
 ---
 
-## 🧩 BootLib Modal Integration
+## BootLib Modal Integration
 
 If `bootlib = true`, then:
 
@@ -199,7 +199,7 @@ No custom JavaScript is required.
 
 ---
 
-## 📱 Responsive Layouts
+## Responsive Layouts
 
 - `card` → 100% width on mobile  
 - `vcard` → becomes vertical on small screens  
@@ -209,7 +209,7 @@ All responsive rules are defined in the theme.
 
 ---
 
-## 🛠️ Future Enhancements
+## Future Enhancements
 
 - Auto‑generator for all days of the year  
 - Admin panel for event management  
@@ -218,19 +218,13 @@ All responsive rules are defined in the theme.
 
 ---
 
-## 📜 License
+## License
 
 AGL-F License — Ascoos General License (Free).
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome.  
 For major changes, please open an issue first.
-
----
-
-## ⭐ If you like this project
-
-Consider giving it a ⭐ on GitHub!
