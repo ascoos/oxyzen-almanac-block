@@ -90,7 +90,7 @@ You can switch layouts directly from `conf.php`.
 
 ---
 
-## Layouts
+## 📌 Layouts
 
 ### **card**
 
