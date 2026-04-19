@@ -1,28 +1,28 @@
-# 📅 Oxyzen Almanac Block
+# Oxyzen Almanac Block
 
 Το **Oxyzen Almanac Block** είναι ένα δυναμικό, επεκτάσιμο και πλήρως παραμετροποιήσιμο block που εμφανίζει ιστορικά γεγονότα “Σαν Σήμερα”.  
 Υποστηρίζει πολλαπλά layouts, themes, πολυγλωσσικό περιεχόμενο, responsive σχεδίαση και προαιρετική ενσωμάτωση με το **BootLib UI Framework**.
 
 ---
 
-## ✨ Χαρακτηριστικά
+## Χαρακτηριστικά
 
-- 📌 **3 Layouts**
+- **3 Layouts**
   - `card` — κάθετη κάρτα
   - `vcard` — οριζόντια κάρτα (εικόνα αριστερά, κείμενο δεξιά)
   - `list` — λίστα γεγονότων με modal
-- 🎨 **Themes** με χρήση CSS `light-dark()`
-- 🖼️ **Υποστήριξη εικόνων** (thumb/full)
-- 🌍 **Πολυγλωσσικό σύστημα** με ISO codes (`en`, `el`, `fr`, `zh-cn`, `zh-tw`, κ.λπ.)
-- 🧩 **BootLib modal integration** (προαιρετικό)
-- 📁 **JSON-based data** ανά ημέρα και μήνα
-- 📱 **Πλήρως responsive**
-- ⚙️ **Config-driven συμπεριφορά** μέσω `conf.php`
-- 🔧 Συμβατό με Ascoos OS (προαιρετικά)
+- **Themes** με χρήση CSS `light-dark()`
+- **Υποστήριξη εικόνων** (thumb/full)
+- **Πολυγλωσσικό σύστημα** με ISO codes (`en`, `el`, `fr`, `zh-cn`, `zh-tw`, κ.λπ.)
+- **BootLib modal integration** (προαιρετικό)
+- **JSON-based data** ανά ημέρα και μήνα
+- **Πλήρως responsive**
+- **Config-driven συμπεριφορά** μέσω `conf.php`
+- Συμβατό με Ascoos OS (προαιρετικά)
 
 ---
 
-## 📂 Δομή Φακέλων
+## Δομή Φακέλων
 
 ```
 /config
@@ -53,7 +53,7 @@ README.md
 
 ---
 
-## ⚙️ Ρυθμίσεις (`config/conf.php`)
+## Ρυθμίσεις (`config/conf.php`)
 
 ```php
 return [
@@ -74,7 +74,7 @@ return [
 
 ---
 
-## 🧩 Χρήση
+## Χρήση
 
 Το block φορτώνεται μέσω του `index.php`:
 
@@ -88,7 +88,7 @@ return [
 
 Αλλάζεις layout απλά από το `conf.php`.
 
-## 📌 Layouts
+## Layouts
 
 ### **card**
 
@@ -108,7 +108,7 @@ return [
 
 ---
 
-## 🌍 Πολυγλωσσικό Σύστημα
+## Πολυγλωσσικό Σύστημα
 
 Κάθε αρχείο γλώσσας είναι απλό:
 
@@ -130,7 +130,7 @@ return [
 
 ---
 
-## 🖼️ Δεδομένα Ημερομηνιών
+## Δεδομένα Ημερομηνιών
 
 Κάθε ημέρα έχει το δικό της JSON:
 
@@ -157,7 +157,7 @@ return [
 
 ---
 
-## 🎨 Themes
+## Themes
 
 Τα themes βρίσκονται στο:
 
@@ -176,7 +176,7 @@ return [
 
 ---
 
-## 🧩 BootLib Modal Integration
+## BootLib Modal Integration
 
 Αν `bootlib = true`, τότε:
 
@@ -197,7 +197,7 @@ return [
 
 ---
 
-## 📱 Responsive Layouts
+## Responsive Layouts
 
 - `card` → 100% width σε mobile  
 - `vcard` → γίνεται κάθετη σε μικρές οθόνες  
@@ -207,7 +207,7 @@ return [
 
 ---
 
-## 🛠️ Μελλοντικές Επεκτάσεις
+## Μελλοντικές Επεκτάσεις
 
 - Auto‑generator για όλες τις ημέρες του έτους  
 - Admin panel για εισαγωγή γεγονότων  
@@ -216,19 +216,13 @@ return [
 
 ---
 
-## 📜 Άδεια
+## Άδεια
 
 AGL-F License — Ascoos Genereal License (Free).
 
 ---
 
-## 🤝 Συνεισφορά
+## Συνεισφορά
 
 Pull requests είναι ευπρόσδεκτα.  
 Για μεγάλες αλλαγές, άνοιξε πρώτα ένα issue.
-
----
-
-## ⭐ Αν σου άρεσε το project
-
-Μπορείς να του δώσεις ένα ⭐ στο GitHub!
