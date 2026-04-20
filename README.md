@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://dl.ascoos.com/images/ascoos.png" height="120" />
+</p>
+
+---
+
 # Oxyzen Almanac Block
 
 **Oxyzen Almanac Block** is a dynamic, extensible, and fully customizable block that displays historical “On This Day” events.  
@@ -8,9 +14,9 @@ It supports multiple layouts, themes, multilingual content, responsive design, a
 ## Features
 
 - **3 Layouts**
-    - `card` — vertical card
-    - `vcard` — horizontal card (image left, text right)
-    - `list` — event list with modal
+    - `card` - vertical card
+    - `vcard` - horizontal card (image left, text right)
+    - `list` - event list with modal
 - **Themes** using CSS `light-dark()`
 - **Image support** (thumb/full)
 - **Multilingual system** with ISO codes (`en`, `el`, `fr`, `zh-cn`, `zh-tw`, etc.)
@@ -106,7 +112,7 @@ You can switch layouts directly from `conf.php`.
 
 ### **list**
 
-![List](https://cdn.ascoos.com/images/blocks/almanac/list.png)
+![List](https://cdn.ascoos.com/images/blocks/almanac/list-1024.png)
 
 ---
 
@@ -220,7 +226,7 @@ All responsive rules are defined in the theme.
 
 ## License
 
-AGL-F License — Ascoos General License (Free).
+AGL-F License - Ascoos General License (Free).
 
 ---
 
@@ -228,3 +234,13 @@ AGL-F License — Ascoos General License (Free).
 
 Pull requests are welcome.  
 For major changes, please open an issue first.
+
+---
+
+## Author
+
+**Drogidis Christos**  
+
+ASCOOS OS Creator  
+
+https://www.ascoos.com

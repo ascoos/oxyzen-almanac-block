@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://dl.ascoos.com/images/ascoos.png" height="120" />
+</p>
+
+---
+
 # Oxyzen Almanac Block
 
 Το **Oxyzen Almanac Block** είναι ένα δυναμικό, επεκτάσιμο και πλήρως παραμετροποιήσιμο block που εμφανίζει ιστορικά γεγονότα “Σαν Σήμερα”.  
@@ -8,9 +14,9 @@
 ## Χαρακτηριστικά
 
 - **3 Layouts**
-  - `card` — κάθετη κάρτα
-  - `vcard` — οριζόντια κάρτα (εικόνα αριστερά, κείμενο δεξιά)
-  - `list` — λίστα γεγονότων με modal
+  - `card` - κάθετη κάρτα
+  - `vcard` - οριζόντια κάρτα (εικόνα αριστερά, κείμενο δεξιά)
+  - `list` - λίστα γεγονότων με modal
 - **Themes** με χρήση CSS `light-dark()`
 - **Υποστήριξη εικόνων** (thumb/full)
 - **Πολυγλωσσικό σύστημα** με ISO codes (`en`, `el`, `fr`, `zh-cn`, `zh-tw`, κ.λπ.)
@@ -104,7 +110,7 @@ return [
 
 ### **list**
 
-![List](https://cdn.ascoos.com/images/blocks/almanac/list.png)
+![List](https://cdn.ascoos.com/images/blocks/almanac/list-1024.png)
 
 ---
 
@@ -218,7 +224,7 @@ return [
 
 ## Άδεια
 
-AGL-F License — Ascoos Genereal License (Free).
+AGL-F License - Ascoos Genereal License (Free).
 
 ---
 
@@ -226,3 +232,13 @@ AGL-F License — Ascoos Genereal License (Free).
 
 Pull requests είναι ευπρόσδεκτα.  
 Για μεγάλες αλλαγές, άνοιξε πρώτα ένα issue.
+
+---
+
+## Συγγραφέας
+
+**Δρογκίδης Χρήστος**  
+
+Δημιουργός του ASCOOS OS  
+
+https://www.ascoos.com
