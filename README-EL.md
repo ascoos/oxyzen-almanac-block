@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://dl.ascoos.com/images/ascoos.png" height="120" />
-</p>
+![Ascoos Logo](https://dl.ascoos.com/images/ascoos.png)
 
 ---
 
