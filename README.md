@@ -4,7 +4,7 @@
 
 # Oxyzen Almanac Block
 
-**Oxyzen Almanac Block** is a dynamic, extensible, and fully customizable block that displays historical “On This Day” events.  
+**Oxyzen Almanac Block** is a dynamic, extensible, and fully customizable block that displays historical "**On This Day**" events.  
 It supports multiple layouts, themes, multilingual content, responsive design, and optional integration with the **BootLib UI Framework**.
 
 ---
