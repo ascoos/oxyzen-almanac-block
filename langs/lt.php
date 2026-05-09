@@ -1,5 +1,6 @@
 <?php
 return [
-    'on-this-day' => 'Šiandien istorijoje',
+    'like-today' => 'Šią dieną',
+    'no-events' => 'Šią dieną neįvyko jokių istorinių įvykių.'
 ];
 ?>

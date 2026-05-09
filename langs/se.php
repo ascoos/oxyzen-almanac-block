@@ -1,5 +1,6 @@
 <?php
 return [
-    'on-this-day' => 'I dag i historien'
+    'like-today' => 'Dán beaivvi',
+    'no-events' => 'Dán beaivvi ii dáhpáhuvvan historjjálaš dáhpáhusaid.'
 ];
 ?>

@@ -1,5 +1,6 @@
 <?php
 return [
-    'on-this-day' => 'Dnes v histórii',
+    'like-today' => 'V tento deň',
+    'no-events' => 'V tento deň sa nestali žiadne historické udalosti.'
 ];
 ?>
