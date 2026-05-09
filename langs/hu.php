@@ -1,5 +1,6 @@
 <?php
 return [
-    'on-this-day' => 'Ma a történelemben',
+    'like-today' => 'Ezen a napon',
+    'no-events' => 'Ezen a napon nem történt történelmi esemény.'
 ];
 ?>

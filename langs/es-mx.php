@@ -1,5 +1,6 @@
 <?php
 return [
-    'on-this-day' => 'Hoy en la historia',
+    'like-today' => 'Un día como hoy',
+    'no-events' => 'No ocurrieron eventos históricos en este día.'
 ];
 ?>
