@@ -16,12 +16,32 @@ function normalize_lang($lang)
 
     // Πλήρεις κωδικοί που θέλουμε να υποστηρίζουμε
     $supported = [
-        'af', 'ar', 'bg', 'bn', 'cs', 'da', 'de', 'el', 'en', 'es-mx', 'es',
-        'et', 'fa', 'fi', 'fr', 'he', 'hi', 'hr', 'hu', 'hy', 'id', 'it', 'ja',
-        'ko', 'lt', 'lv', 'ms', 'nl', 'nn', 'no', 'pl', 'pt', 'pt-br', 'ro', 'ru',
-        'se', 'sk', 'sv', 'sw', 'th', 'tl', 'tr', 'uk', 'ur', 'vi', 'zh-cn', 'zh-hand',
-        'zh-hk', 'zh-tw', 'zh'
+        'af', 'ak', 'am', 'ar', 'as', 'az',
+        'be', 'bg', 'bm', 'bn', 'bo', 'br', 'bs', 
+        'ca', 'ce', 'cs', 'cy',  
+        'da', 'de', 
+        'ee', 'el', 'en', 'es-mx', 'es', 'et', 'eu', 
+        'fa', 'ff', 'fi', 'fo', 'fr', 
+        'ga', 'gd', 'gl', 'gu',
+        'ha', 'he', 'hi', 'hr', 'hu', 'hy', 
+        'id', 'ig', 'ii', 'is', 'it', 
+        'ja',
+        'ka', 'ki', 'kk', 'kl', 'km', 'kn', 'ko', 'ks', 'ky',
+        'lb', 'lg', 'ln', 'lo', 'lt', 'lv', 
+        'mg', 'mk', 'ml', 'mn', 'mr', 'ms', 'mt', 'my',
+        'nb', 'nd', 'ne', 'nl', 'nn', 'no', 
+        'om', 'or', 'os',
+        'pa', 'pl', 'ps', 'pt', 'pt-br', 
+        'qu',
+        'rm', 'rn', 'ro', 'ru', 'rw',
+        'se', 'sg', 'si', 'sk', 'sn', 'so', 'sq', 'sr', 'sv', 'sw', 
+        'ta', 'te', 'tg', 'th', 'tl', 'ti', 'to', 'tr', 
+        'ug', 'uk', 'ur', 'uz',
+        'vi', 
+        'wo',
+        'zh-cn', 'zh-hand', 'zh-hans', 'zh-hk', 'zh-tw', 'zh', 'zu'             
     ];
+
 
     // Αν ο browser δώσει κάτι σαν zh-Hans-CN → το κάνουμε zh-cn
     if (preg_match('/^zh/i', $lang)) {

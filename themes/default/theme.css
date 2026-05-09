@@ -121,6 +121,15 @@
     text-decoration: underline;
 }
 
+.oxyzen-block-almanac .signature {
+    text-align: right; 
+    padding: 2px 8px; 
+    border-top: 1px solid #555;
+}
+.oxyzen-block-almanac .signature img {
+    max-width: 128px;
+}
+
 /* Responsive list */
 @media (max-width: 480px) {
     .oxyzen-block-almanac.list td {
