@@ -1,5 +1,6 @@
 <?php
 return [
-    'on-this-day' => 'Hôm nay trong lịch sử',
+    'like-today' => 'Ngày này năm xưa',
+    'no-events' => 'Không có sự kiện lịch sử nào xảy ra vào ngày này.'
 ];
 ?>
